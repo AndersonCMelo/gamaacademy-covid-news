@@ -1,0 +1,123 @@
+.first-section {
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+
+.first-section .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.first-section .line-one {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  height: 500px;
+}
+
+.first-section .line-one .news {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  transition: 400ms ease;
+}
+
+.first-section .line-one .news .space {
+  height: 400px;
+}
+
+.first-section .line-one .news .news-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 50px 20px 10px 20px;
+}
+
+.first-section .line-one .news .news-button {
+  background: none;
+  font-size: 14px;
+  color: #b6b6b6;
+  margin: 0 20px 20px 20px;
+  cursor: pointer;
+}
+
+.first-section .line-one .news01 {
+  background-image: url("https://s2.glbimg.com/7oosZunZULjzeYdDW6a8FBCLY9c=/0x0:1620x1400/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/u/O/daALBnQbei91FVinseZg/4014a20k-pb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.first-section .line-one .news02 {
+  background-image: url("https://conteudo.imguol.com.br/c/noticias/13/2020/04/16/um-medico-em-traje-de-protecao-visita-uma-pessoa-que-sofre-da-doenca-de-coronavirus-covid-19-em-sua-casa-em-bergamo-o-epicentro-do-surto-da-italia-1587086313623_v2_900x506.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+}
+
+.first-section .line-one .news03 {
+  background-image: url("https://s.yimg.com/ny/api/res/1.2/D_I2D1Lhcslw.do6JiPFpw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/https://media.zenfs.com/pt/folhapress_805/b57a88751e55be6678c390b289758088");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+  margin-top: 20px;
+}
+
+.first-section .line-one .news .news-content {
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));;
+}
+
+.first-section .line-one .news:hover {
+  transform: scale(0.99);
+}
+
+.second-section {
+  margin-bottom: 70px;
+}
+
+.second-section .section-title {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.second-section .content .videos .video {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+.second-section .content .videos .video .thumb {
+  width: 530px;
+  height: 300px;
+  margin-right: 30px;
+}
+
+.second-section .content .videos .video .title {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.second-section .content .videos .video .button {
+  margin-top: 60px;
+  font-weight: bold;
+  color: #fff;
+  background: #6AA703;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: 400ms ease;
+}
+
+.second-section .content .videos .video .button:hover {
+  background: #226900;
+  transform: scale(0.98);
+}

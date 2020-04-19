@@ -1,0 +1,25 @@
+.footer {
+  background: linear-gradient(to bottom,#000,#2d2d2d);
+  padding: 40px 0 40px;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .content .social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+}
+
+.footer .content .text {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+}

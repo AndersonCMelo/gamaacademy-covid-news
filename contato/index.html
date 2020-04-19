@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale comigo | Anderson Melo</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/footer.css">
+
+  <script src="https://kit.fontawesome.com/d0b44c927a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="content container">
+      <a href="../"><img class="logo" src="../assets/covidNEWS.svg" alt=""></a>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="../">Home</a></li>
+          <li><a href="../sobre-mim/">Sobre mim</a></li>
+          <li><a class="active" href="./">Fale comigo</a></li>
+          <li><a href="../saiba-mais/">Saiba mais</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/anderson-melo-111677155/" target="_blank"><img src="../assets/Linkedin Icon Green 2.svg" alt=""></a>
+        <a href="https://github.com/AndersonCMelo" target="_blank"><img src="../assets/Github Icon Green 2.svg" alt=""></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Float Button -->
+  <div class="top">
+    <button class="btnTop" onclick="backToTop()"><img class="button img" src="../assets/top.svg" alt=""></button>
+  </div> 
+
+  <!-- Section -->
+  <main class="container">
+    <section class="section">
+      <div class="column1">
+        <h1 class="title">Contato</h1>
+        <p class="text">Conte-me um pouco sobre sua ideia, vamos <br>trabalhá-la juntos.</p>
+        <div class="links">
+          <a class="link email" href="mailto:andersonmelo13@gmail.com"><p><i class="icon far fa-envelope"></i> andersonmelo13@gmail.com</p></a>
+          <a class="link phone" href="tel:+5583996135977"><p><i class="icon fas fa-mobile-alt"></i>83 99613 5977</p></a>
+          
+        </div>
+      </div>
+      <div class="column2">
+        <form class="form" netlify>
+          <p class="label">Nome</p>
+          <input class="input" type="text" name="name"  required>
+          <p class="label">E-mail</p>
+          <input class="input" type="text" name="email" required>
+          <p class="label">Mensagem</p>
+          <textarea class="input message" name="message" required></textarea>
+          <input class="button" type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content container">
+      <p class="text">© 2020 Anderson Melo. Todos os direitos reservados.</p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/anderson-melo-111677155/" target="_blank"><img class="icon" src="../assets/Linkedin Icon Green 2.svg" alt=""></a>
+        <a href="https://github.com/AndersonCMelo" target="_blank"><img class="icon" src="../assets/Github Icon Green 2.svg" alt=""></a>
+      </div> 
+    </div>
+  </footer>
+</body>
+</html>

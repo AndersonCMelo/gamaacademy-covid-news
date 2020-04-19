@@ -1,0 +1,47 @@
+.header {
+  background: linear-gradient(to bottom,#000,#2d2d2d);
+}
+
+.header .content {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .menu li + li {
+  margin-left: 40px;
+}
+
+.header .menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header .menu li a:hover {
+  color: #6AA703;
+  transition: all 400ms ease;
+}
+
+.header .menu li .active {
+  color: #6AA703;
+  padding: 0 0 3px 0;
+  border-bottom: 2px solid;
+}
+
+.header .content .social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+}
